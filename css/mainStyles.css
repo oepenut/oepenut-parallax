@@ -28,7 +28,7 @@ html {
 /* First image (Logo. Full height) */
 .bgimg-1 {
   background-image: url('../img/pakata-goh-EJMTKCZ00I0-unsplash.jpg');
-  min-height: 100%;
+  min-height: 50%;
   background-position: 0 10%;
 }
 
@@ -57,9 +57,9 @@ html {
 }
 
 /* Turn off parallax scrolling for tablets and phones */
-    /*@media only screen and (max-device-width: 1600px) {
+@media only screen and (max-device-width: 1280px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
     min-height: 400px;
   }
-}*/
+}
